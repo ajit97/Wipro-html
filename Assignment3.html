@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      }
+    .box{
+      width: 100%;
+      color: black;
+      background-color: #F6F6F6;
+      height: 90px;
+      display: flex;
+      margin-bottom: 5%;
+    }
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; 
+    }
+    img{
+      width: 200px;
+      height: 100px;   
+    }
+    .title{
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 25%;
+      text-align: center;
+    }
+    .form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    input{
+      display: block;
+      width: 400px;
+      padding: 10px;
+      margin: 20px;
+    }
+    .box1{
+      position: relative;
+      left: 30%;
+      font-size: 3em;
+    }
+    .box1 h2{
+     position: absolute;
+     left: 10%;
+    }
+    .box1 button{
+      width: 25%;
+      padding: 20px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">
+      <img src="game.png" alt="">
+    </div>
+    <div class="title">
+      <h1>Awesome Online videos</h1>
+    </div>
+  </div>
+  <div class="box1">
+    <h2>View Area</h2><br><br>
+    <button>Play</button>
+    <button>Pause</button>
+  </div>
+</body>
+</html>
